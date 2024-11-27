@@ -10,8 +10,8 @@ def string_info(string):
 
 def is_contains (string ,list_to_search):
     count_calls() # обращаемся к первой функции увеличиваем счетчик
-    return string.lower() in [item.lower() for item in list_to_search] # преобразоваваем первую строку в строчные символы,
-    #сравнение строки со списком, в списке преобразовываемвсе символы строк в строчные
+    return string.lower() in [item.lower() for item in list_to_search] # преобразовываем первую строку в строчные символы,
+    #сравнение строки со списком, в списке преобразовываем все символы строк в строчные
 
 # вывод результата функций
 
